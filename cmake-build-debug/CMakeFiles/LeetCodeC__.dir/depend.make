@@ -3,4 +3,5 @@
 
 CMakeFiles/LeetCodeC__.dir/main.cpp.obj: ../header/person.h
 CMakeFiles/LeetCodeC__.dir/main.cpp.obj: ../main.cpp
+CMakeFiles/LeetCodeC__.dir/main.cpp.obj: ../problems/arithmetic_slices.h
 

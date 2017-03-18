@@ -9,23 +9,37 @@
 
 #include <vector>
 #include <map>
+#include <limits>
 using namespace std;
 
-int getSlices(map<int, int>& slices, int prev, int curr ,int diff){
-    if (curr - prev == diff){
-        slices[curr] = 2 * slices[prev] + 1;
-    } else{
-        slices[curr] = 0;
+class arithmeticSlice {
+
+public:
+    static int getSlices(map<int, int>& slices,vector<int>& A, int index ,int diff){
+        int curr = A[index];
+        int prev = A[index - 1];
+        if (curr - prev == diff){
+            slices[index] = slices[index - 1] + 1;
+        } else{
+            slices[index] = 0;
+        }
+        return curr - prev;
     }
-    return curr - prev;
-}
-int numberOfArithmeticSlices(vector<int>& A) {
-    map<int, int> slices;
-    for (auto i = A.begin(); i != A.end(); i++){
-        slices[*i] = 0;
+    static int numberOfArithmeticSlices(vector<int>& A) {
+        map<int, int> slices;
+        for (auto i = 0; i != A.size(); i++){
+            slices[i] = 0;
+        }
+        int diff = numeric_limits<int>::max();
+        for (auto i = 1; i != A.size(); i++){
+            diff = getSlices(slices, A, i, diff);
+        }
+        int result = 0;
+        map<int, int>::iterator it;
+        for (it = slices.begin(); it != slices.end(); ++it){
+            result += it->second;
+        }
+        return result;
     }
-    int diff = 0;
-    for (auto i = A.begin(); i != A.end(); i++){
-        getSlices(slices, *i, *(i+1),
-    }
-}
+
+};
