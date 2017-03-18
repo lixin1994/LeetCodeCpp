@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/person.h
+string
+-
+vector
+-
+
+C:/Users/lixin/Documents/GitHub/LeetCodeC++/main.cpp
+iostream
+-
+string
+-
+vector
+-
+header/person.h
+C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/person.h
+
