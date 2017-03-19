@@ -4,6 +4,8 @@
 #include "header/person.h"
 #include "problems/arithmetic_slices.h"
 #include "problems/paint_house.h"
+#include "problems/max_product.h"
+
 using namespace std;
 
 
@@ -17,5 +19,9 @@ int main() {
     vector<vector<int>> costs = {{2,3,1},{5,4,3},{10,22,12},{22,12,31},{12,2,31},{2,2,7}};
 
     paint_house ph;
-    cout<<ph.minCost(costs);
+    max_product mp;
+
+    vector<int> v = {1,2,1,0,-2,1,3,-2,1,2,3,5,-2,3,5};
+    //cout<<ph.minCost(costs);
+    cout<<mp.maxProduct(v);
 }
