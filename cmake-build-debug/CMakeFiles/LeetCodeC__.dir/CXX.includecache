@@ -23,6 +23,8 @@ header/person.h
 C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/person.h
 problems/arithmetic_slices.h
 C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/arithmetic_slices.h
+problems/paint_house.h
+C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/paint_house.h
 
 C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/arithmetic_slices.h
 vector
@@ -30,5 +32,11 @@ vector
 map
 -
 limits
+-
+
+C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/paint_house.h
+vector
+-
+algorithm
 -
 
