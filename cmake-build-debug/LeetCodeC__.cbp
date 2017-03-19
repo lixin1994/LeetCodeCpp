@@ -82,6 +82,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/AATree.h">
+			<Option target="LeetCodeC__"/>
+		</Unit>
+		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/Node.h">
+			<Option target="LeetCodeC__"/>
+		</Unit>
 		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/header/person.h">
 			<Option target="LeetCodeC__"/>
 		</Unit>
@@ -89,6 +95,9 @@
 			<Option target="LeetCodeC__"/>
 		</Unit>
 		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/arithmetic_slices.h">
+			<Option target="LeetCodeC__"/>
+		</Unit>
+		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/problems/paint_house.h">
 			<Option target="LeetCodeC__"/>
 		</Unit>
 		<Unit filename="C:/Users/lixin/Documents/GitHub/LeetCodeC++/CMakeLists.txt">
